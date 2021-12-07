@@ -1,0 +1,20 @@
+@startuml
+interface Gibrid
+Gibrid : #String bloodType
+Gibrid : #taste()
+Gibrid : #reborn()
+interface Kiborg
+Kiborg : #kill
+abstract class Human
+
+class Assasin
+class User
+Assasin --|> Human
+Assasin ..|> Kiborg
+Assasin ..|> Gibrid
+User --|> Human
+User ..|> Gibrid
+
+class MacUser
+MacUser --|> User
+@enduml

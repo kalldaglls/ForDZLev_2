@@ -1,4 +1,4 @@
-package Metoda2_2;
+package ClassWork2_2;
 
 public class MechExp extends Exception{
     public MechExp() {
